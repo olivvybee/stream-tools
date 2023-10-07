@@ -1,0 +1,33 @@
+@keyframes scrollAnimation {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -1920px;
+  }
+}
+
+.scroller {
+  position: absolute;
+  width: calc(1920px * 2);
+  overflow: hidden;
+  animation: scrollAnimation 45s linear infinite;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.scroller > img {
+  width: 256px;
+  height: 256px;
+}
+
+.left {
+  top: 80px;
+}
+
+.right {
+  transform: scaleX(-1);
+  bottom: 80px;
+  animation-direction: reverse;
+}
