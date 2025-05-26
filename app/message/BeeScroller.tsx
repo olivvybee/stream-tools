@@ -26,24 +26,22 @@ export const BeeScroller = ({ direction }: BeeScrollerProps) => (
 
 const BeesLeft = () => (
   <>
-    <img src="/bees/blobbee.png" />
-    <img src="/bees/blobbee_pride.png" />
+    <img src="/bees/blobbee_gamer.png" />
+    <img src="/bees/blobbee_flag_rainbow.png" />
     <img src="/bees/blobbee_mug.png" />
-    <img src="/bees/blobbee_trans.png" />
-    {/* <img src="/bees/blobbee_laptop.png" /> */}
+    <img src="/bees/blobbee_flag_trans.png" />
     <img src="/bees/blobbee_lego.png" />
-    <img src="/bees/blobbee_nb.png" />
+    <img src="/bees/blobbee_flag_nb.png" />
   </>
 );
 
 const BeesRight = () => (
   <>
     <img src="/bees/blobbee_meeple.png" />
-    <img src="/bees/blobbee_lesbeean.png" />
+    <img src="/bees/blobbee_flag_lesbian.png" />
     <img src="/bees/blobbee_fox_ears.png" />
-    <img src="/bees/blobbee_ace.png" />
+    <img src="/bees/blobbee_flag_ace.png" />
     <img src="/bees/blobbee_neurodiverse.png" />
-    <img src="/bees/blobbee_agender.png" />
-    {/* <img src="/bees/blobbee_heart.png" /> */}
+    <img src="/bees/blobbee_flag_agender.png" />
   </>
 );
