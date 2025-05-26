@@ -1,9 +1,9 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Fredoka } from 'next/font/google';
+import { Poetsen_One } from 'next/font/google';
 
-const font = Fredoka({
-  weight: ['400', '500', '600', '700'],
+const font = Poetsen_One({
+  weight: ['400'],
   subsets: ['latin'],
 });
 
