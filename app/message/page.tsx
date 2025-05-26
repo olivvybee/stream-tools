@@ -6,6 +6,7 @@ import { Card } from './Card';
 
 import styles from './page.module.css';
 import { BeeScroller } from './BeeScroller';
+import { Suspense } from 'react';
 
 const MessagePage = () => {
   const searchParams = useSearchParams();
@@ -20,4 +21,10 @@ const MessagePage = () => {
   );
 };
 
-export default MessagePage;
+const MessagePageWithSuspense = () => (
+  <Suspense>
+    <MessagePage />
+  </Suspense>
+);
+
+export default MessagePageWithSuspense;
